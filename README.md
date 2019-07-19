@@ -11,6 +11,7 @@ To download all sample notebooks, [here](notebooks/connect_storage.dbc) is the D
 |   |   |AD Passthrough|**User has correct RBAC role assigned OR ACLs permissions to files/folders in ADLS Gen2|[Python](notebooks/directconnect_adpassthrough_py.py), [SQL](notebooks/directconnect_adpassthrough_sql.sql)| [ADLS Gen2](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake-gen2.html#access-adls-automatically-with-your-aad-credentials)|
 |**Mount on DBFS**|Databricks Workspace|Storage Key|All rights|[Python](notebooks/mount_storagekey_py.py)|[Blob](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-storage.html#mount-azure-blob-storage-containers-with-dbfs), [ADLS Gen2](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake-gen2.html#access-an-adls-account-directly-using-the-storage-account-access-key)|
 |   |   |OAuth via Service Principal (SP)|**SP has correct RBAC role assigned OR ACLs permissions to files/folders in ADLS Gen2|[Python](notebooks/mount_oauthsp_py.py)| [ADLS Gen2](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake-gen2.html#mount-an-adls-filesystem-to-dbfs-using-a-service-principal-and-oauth-2-0)|
+|   |   |AD Passthrough|**User has correct RBAC role assigned OR ACLs permissions to files/folders in ADLS Gen2|[Python](notebooks/mount_adpassthrough_py.py)|[ADLS Gen2](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/adls-passthrough.html#mount-your-data-with-dbfs)|
 |---|---|---|---|---|---|
 
 
